@@ -1,0 +1,105 @@
+{
+  "accuracy": 0.0,
+  "results": [
+    {
+      "rule_id": "R01",
+      "rule": "CPA订单成交后必须在7天内确认收货",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R02",
+      "rule": "所有订单必须有确认时间(不允许为NULL)",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R03",
+      "rule": "GMV必须大于0",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R04",
+      "rule": "佣金必须小于GMV",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R05",
+      "rule": "确认时间不得早于成交时间",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R06",
+      "rule": "商家ID不能为空",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R07",
+      "rule": "订单状态必须是completed/pending/refunded之一",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R08",
+      "rule": "GMV和佣金金额必须最多保留两位小数",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R09",
+      "rule": "order_id不能为空且必须唯一",
+      "expected_pass": true,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    },
+    {
+      "rule_id": "R10",
+      "rule": "佣金必须等于GMV的5%",
+      "expected_pass": false,
+      "actual_pass": null,
+      "correct": false,
+      "violations": null,
+      "tool_calls": [],
+      "raw_output": ""
+    }
+  ]
+}

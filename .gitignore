@@ -1,0 +1,18 @@
+# 忽略环境变量和密钥
+.env
+.env.local
+
+# 忽略本地数据库
+*.db
+settlement.db
+
+# 忽略虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# macOS 系统文件
+.DS_Store
+
+# PyCharm 配置
+.idea/

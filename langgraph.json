@@ -1,0 +1,6 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "settlement_agent": "./agent.py:app"
+  }
+}
